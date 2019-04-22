@@ -33,7 +33,7 @@ public class Model {
 	//schermo pubblico alla ricorsione
 	public List<Citta> calcolaSequenza(Month mese) {
 		List<Citta> parziale = new ArrayList<Citta>();
-		List<Citta> best = new ArrayList<Citta>();
+		best = new ArrayList<Citta>();
 		
 		cerca(parziale, 0, best, mese);
 		
